@@ -3,10 +3,10 @@ import CountriesAll from '../countriesAll.json';
 
 function CountryBlock() {
   return (
-    <div className='countryBlock'>
+    <div className='allBlocks'>
       {CountriesAll.map((e) => {
         return (
-          <div key={e.cioc}>
+          <div key={e.cioc} className='countryBlock'>
             <img src={e.flag} alt='This is a flag'/>
             <h3>{e.name}</h3>
             <p>Population: {e.population}</p>
