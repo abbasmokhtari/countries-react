@@ -23,8 +23,7 @@
 }
 
 .countryBlock img {
-  width: 260px;
-  height: 150px;
+  max-width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
