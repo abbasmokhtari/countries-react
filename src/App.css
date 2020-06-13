@@ -7,3 +7,10 @@
   justify-content: flex-start;
   box-shadow: 1px 1px 10px #ccc;
 }
+
+.countryBlock{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-shadow: 1px 1px 10px #ccc;
+}
