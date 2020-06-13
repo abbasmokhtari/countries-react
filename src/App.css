@@ -4,13 +4,54 @@
 
 .header {
   display: flex;
-  justify-content: flex-start;
   box-shadow: 1px 1px 10px #ccc;
+  padding-left: 50px;
 }
 
-.countryBlock{
+
+
+
+.countryBlock {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
   box-shadow: 1px 1px 10px #ccc;
+  width: 250px;
+  margin: 20px auto;
+  padding-top: 0%;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+.countryBlock img {
+  width: 250px;
+  height: 150px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.allBlocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 90vw;
+  margin: auto;
+}
+
+h3 {
+  margin-left: 20px;
+}
+
+p{
+  margin-left: 20px;
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+
+.countryInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dataRes {
+  color: rgb(88, 88, 88);
 }
