@@ -5,7 +5,7 @@ function CountryBlock(props) {
     <div className='allBlocks'>
       {props.allCountries.map((e) => {
         return (
-          <div key={e.cioc} className='countryBlock'>
+          <div key={e.numericCode} className='countryBlock'>
             <img src={e.flag} alt='This is a flag'/>
             <div className='countryInfo'>
             <h3>{e.name}</h3>
