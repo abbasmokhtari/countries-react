@@ -8,9 +8,6 @@
   padding-left: 50px;
 }
 
-
-
-
 .countryBlock {
   display: flex;
   flex-direction: column;
@@ -43,9 +40,9 @@ h3 {
   margin-left: 20px;
 }
 
-p{
+p {
   margin-left: 20px;
-  margin-top:5px;
+  margin-top: 5px;
   margin-bottom: 5px;
 }
 
@@ -58,4 +55,13 @@ p{
 
 .dataRes {
   color: rgb(88, 88, 88);
+}
+
+.input {
+  box-shadow: 1px 1px 10px #ccc;
+  height: 40px;
+  width: 400px;
+  margin-top: 30px;
+  border: none;
+  font-size: 1.2rem;
 }
