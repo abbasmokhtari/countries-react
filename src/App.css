@@ -32,8 +32,9 @@
 }
 
 .allBlocks {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 90vw;
   margin: auto;
 }

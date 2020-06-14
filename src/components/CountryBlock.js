@@ -1,10 +1,9 @@
 import React from 'react';
-import CountriesAll from '../countriesAll.json';
 
-function CountryBlock() {
+function CountryBlock(props) {
   return (
     <div className='allBlocks'>
-      {CountriesAll.map((e) => {
+      {props.allCountries.map((e) => {
         return (
           <div key={e.cioc} className='countryBlock'>
             <img src={e.flag} alt='This is a flag'/>
